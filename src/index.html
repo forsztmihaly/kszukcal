@@ -1,0 +1,54 @@
+<!--
+File: index.html
+Author: Forszt Mihály
+Copyright: 2022, Forszt Mihály
+Group: Szoft I/2/E
+Date: 2022-04-05
+Github: https://github.com/forsztmihaly
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <title>Feladat 0352</title>
+</head>
+
+<body>
+    <div>
+        <p class="m-3">Forszt Mihály, 2022-04-05, Szoft I/2/E</p>
+        <h1 class="m-3">BMR kalkulátor</h1>
+        <form id="calculator">
+            <div class="row m-3">
+                <div class="col-md-6">
+                    <label for="testZsir">Testzsírszázalék:</label>
+                    <input type="text" id="testZsir" required>
+                </div>
+            </div>
+
+            <div class="row m-3">
+                <div class="col-md-6">
+                    <label for="testTomeg">Testtömeg (kg):</label>
+                    <input type="text" id="testTomeg" required>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col-md-12"><button id="szamitas" type="button" class="btn border-dark">BMR számítása</button></div>
+            </div>
+            <div class="row m-3">
+                <div class="col-md-6">
+                    <label for="kaloria">BMR:</label>
+                    <input type="text" id="kaloria">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
